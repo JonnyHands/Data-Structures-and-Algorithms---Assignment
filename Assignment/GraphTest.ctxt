@@ -1,0 +1,37 @@
+#BlueJ class context
+comment0.target=GraphTest
+comment0.text=\r\n\r\n\ @author\ Jonny\r\n
+comment1.params=
+comment1.target=GraphTest()
+comment10.params=
+comment10.target=void\ testIncidentEdges()
+comment11.params=
+comment11.target=void\ testRenameVertex()
+comment12.params=
+comment12.target=void\ testRenameEdge()
+comment13.params=
+comment13.target=void\ setUpClass()
+comment13.text=@Test\r\n\ \ \ \ public\ void\ testBFTraverse()\ {\r\n\ \ \ \ \ \ \ \ Graph\ graph\ \=\ new\ Graph();\r\n\ \ \ \ \ \ \ \ Vertex\ v1\ \=\ graph.insertVertex("1");\r\n\ \ \ \ \ \ \ \ Vertex\ v2\ \=\ graph.insertVertex("2");\r\n\ \ \ \ \ \ \ \ Vertex\ v3\ \=\ graph.insertVertex("3");\r\n\ \ \ \ \ \ \ \ Vertex\ v4\ \=\ graph.insertVertex("4");\r\n\ \ \ \ \ \ \ \ Edge\ e1\ \=\ graph.insertEdge(v1,\ v2,\ "line1");\r\n\ \ \ \ \ \ \ \ Edge\ e2\ \=\ graph.insertEdge(v1,\ v3,\ "line2");\r\n\ \ \ \ \ \ \ \ Edge\ e3\ \=\ graph.insertEdge(v2,\ v4,\ "line3");\r\n\ \ \ \ \ \ \ \ graph.bftraverse(v1);\r\n\ \ \ \ \ \ \ \ assertEquals(new\ ArrayList<Vertex>(Arrays.asList(v1,\ v2,\ v3,\ v4)),\ graph.getTraversedVertices());\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ }\r\n
+comment14.params=
+comment14.target=void\ tearDownClass()
+comment15.params=
+comment15.target=void\ setUp()
+comment16.params=
+comment16.target=void\ tearDown()
+comment2.params=
+comment2.target=void\ testInsertVertex()
+comment3.params=
+comment3.target=void\ testRemoveVertex()
+comment4.params=
+comment4.target=void\ testRemoveNullVertex()
+comment5.params=
+comment5.target=void\ testInsertEdge()
+comment6.params=
+comment6.target=void\ testRemoveEdge()
+comment7.params=
+comment7.target=void\ testRemoveNullEdge()
+comment8.params=
+comment8.target=void\ testOpposite()
+comment9.params=
+comment9.target=void\ testAreAdjacent()
+numComments=17

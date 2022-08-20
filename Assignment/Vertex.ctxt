@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Vertex
+comment0.text=\r\n\r\n\ @author\ Jonny\r\n
+comment1.params=name
+comment1.target=Vertex(java.lang.String)
+comment1.text=\r\n\ creates\ a\ vertex\ with\ the\ name\ of\ n\r\n\ @param\ name\r\n
+comment2.params=
+comment2.target=java.util.ArrayList\ getVertices()
+comment2.text=\r\n\ getter\ method\ for\ the\ vertices\r\n\ @return\ vertices\r\n
+comment3.params=vertices
+comment3.target=void\ setVertices(java.util.ArrayList)
+comment3.text=\r\n\ setter\ method\ for\ the\ vertices\r\n\ @param\ vertices\r\n
+comment4.params=
+comment4.target=java.lang.String\ getName()
+comment4.text=\r\n\ getter\ method\ for\ the\ name\r\n\ @return\ name\r\n
+comment5.params=name
+comment5.target=void\ setName(java.lang.String)
+comment5.text=\r\n\ setter\ method\ for\ the\ name\r\n\ @param\ name\r\n
+numComments=6

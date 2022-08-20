@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Edge
+comment0.text=\r\n\r\n\ @author\ Jonny\r\n
+comment1.params=v\ w\ n
+comment1.target=Edge(Vertex,\ Vertex,\ java.lang.String)
+comment1.text=\r\n\ creates\ an\ edge\ between\ two\ vertices\ \r\n\ @param\ v\ the\ first\ vertex\r\n\ @param\ w\ the\ second\ vertex\r\n\ @param\ n\ the\ name\ of\ the\ edge\r\n
+comment2.params=
+comment2.target=Vertex\ getW()
+comment2.text=\r\n\ getter\ method\ for\ the\ vertex\ W\r\n\ @return\ w\r\n
+comment3.params=
+comment3.target=Vertex\ getV()
+comment3.text=\r\n\ getter\ method\ for\ the\ vertex\ V\r\n\ @return\ v\r\n
+comment4.params=
+comment4.target=java.lang.String\ getName()
+comment4.text=\r\n\ getter\ method\ for\ the\ name\ of\ the\ edge\r\n\ @return\ name\r\n
+comment5.params=name
+comment5.target=void\ setName(java.lang.String)
+comment5.text=\r\n\ setter\ method\ for\ the\ edge\ name\r\n\ @param\ name\r\n
+numComments=6
